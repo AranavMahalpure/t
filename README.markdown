@@ -8,8 +8,7 @@ not organize them.
 Why t?
 ------
 
-Yeah, I know, *another* command-line todo list manager.  Several others already
-exist ([todo.txt][] and [TaskWarrior][] come to mind), so why make another one?
+Yes, I know, another command-line todo list manager.Several others already exist ([todo.txt][] and [TaskWarrior][] come to mind), so why create another one?
 
 [todo.txt]: http://ginatrapani.github.com/todo.txt-cli/
 [TaskWarrior]: http://taskwarrior.org/
@@ -21,8 +20,7 @@ them into projects, set priorities, order them, color-code them, and much more.
 
 **That's the problem.**
 
-It's easy to say "I'll just organize my todo list a bit" and spend 15 minutes
-tagging your tasks.  In those 15 minutes you probably could have *finished*
+It's easy to say, 'I'll just organize my todo list a bit,' and spend 15 minutes tagging your tasks.  In those 15 minutes you probably could have *finished*
 a couple of them.
 
 `t` was inspired by [j][].  It's simple, messy, has almost no features, and is
@@ -68,8 +66,7 @@ Installing t
 ------------
 
 `t` requires [Python][] 2.5 or newer, and some form of UNIX-like shell (bash
-works well).  It works on Linux, OS X, and Windows (with [Cygwin][]).
-
+works well).  It works on Linux, macOS, and Windows (with [Cygwin][]).
 [Python]: http://python.org/
 [Cygwin]: http://www.cygwin.com/
 
@@ -83,8 +80,7 @@ Create that directory:
 
     mkdir ~/tasks
 
-Finally, set up an alias to run `t`.  Put something like this in your
-`~/.bashrc` file:
+Finally, set up an alias to run `t`. Add something like this to your ~/.bashrc file:
 
     alias t='python ~/path/to/t.py --task-dir ~/tasks --list tasks'
 
@@ -202,7 +198,7 @@ Now when you're in your project directory you can use `b` to manage the list of
 bugs/tasks for that project.  Add the `bugs` file to version control and you're
 all set.
 
-Even people without `t` installed can view the bug list, because it's plain text.
+"Even users without t installed can view the bug list since it's plain text.
 
 
 Problems, Contributions, Etc
@@ -211,8 +207,7 @@ Problems, Contributions, Etc
 `t` was hacked together in a couple of nights to fit my needs.  If you use it
 and find a bug, please let me know.
 
-If you want to request a feature feel free, but remember that `t` is meant to
-be simple.  If you need anything beyond the basics you might want to look at
+If you want to request a feature, feel free, but remember that t is designed to be simple. If you need anything beyond the basics you might want to look at
 [todo.txt][] or [TaskWarrior][] instead.  They're great tools with lots of
 bells and whistles.
 
